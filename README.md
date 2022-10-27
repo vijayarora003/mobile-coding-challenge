@@ -4,7 +4,7 @@ Please read the instructions below carefully before starting the coding challeng
 
 Once submitted, the mobile team will review your work and get back to you as soon as possible.
 
-### The Goal
+## The Goal
 
 You will be building a simple app that will consist of two main pages. The first page will show a list of podcasts, while the second page will provide more details about a podcast when tapping on one of the list items.
 
@@ -17,7 +17,7 @@ You will be building a simple app that will consist of two main pages. The first
 - [ ] The list should support pagination, loading 10 items at a time.
 - [ ] When a user taps on a list item, a new page should be presented and the following details should be displayed:
 
-### The Evaluation
+## The Evaluation
 
 Your code will be evaluated based on the following criteria:
 
