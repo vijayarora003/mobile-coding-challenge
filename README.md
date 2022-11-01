@@ -34,7 +34,6 @@ You will be building a simple two-screen podcasts app. Please follow the mockup 
 	 - [ ] No API key required, you can simply use the mock server to fetch test data. [More information here](https://www.listennotes.help/article/48-how-to-test-the-podcast-api-without-an-api-key "More information here").
 - [ ] Focus on implementing the app in portrait orientation only.
 - [ ] The list should support pagination, loading 10 items at a time.
-- [ ] When a user taps on a list item, a new page should be presented and the following details should be displayed:
 
 ## The Evaluation
 
@@ -43,6 +42,6 @@ Your code will be evaluated based on the following criteria:
 - [ ] The code should compile.
 - [ ] No crashes, bugs, or compiler warnings.
 - [ ] App operates as outlined above.
-- [ ] Conforms to SOLID principles.
+- [ ] Conforms to modern development principles.
 - [ ] Code is easy to understand. Bonus points for documentation.
 - [ ] Commit history is consistent, easy to follow and understand.
