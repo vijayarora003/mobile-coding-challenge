@@ -10,13 +10,13 @@ You will be building a simple two-screen podcasts app. Please follow the mockup 
 
 [![](https://i.imgur.com/eyErQf4.png)](https://i.imgur.com/eyErQf4.png)
 
-##### Screen 1
+#### Screen 1
 
 - [ ] Show a list of podcasts using the endpoint provided below.
 - [ ] Each list item should show the podcast thumbnail, title, and publisher name.
 - [ ] Leave some space for the favourite-state.
 
-##### Screen 2
+#### Screen 2
 
 - [ ] Tapping on a list item from Screen 1 should bring you to Screen 2.
 - [ ] On Screen 2, show the podcast's title, publisher name, thumbnail, and description.
