@@ -6,7 +6,25 @@ Once submitted, the mobile team will review your work and get back to you as soo
 
 ## The Goal
 
-You will be building a simple app that will consist of two main pages. The first page will show a list of podcasts, while the second page will provide more details about a podcast when tapping on one of the list items.
+You will be building a simple two-screen podcasts app. Please follow the mockup below as closely as possible when building the UI.
+
+[![](https://i.imgur.com/eyErQf4.png)](https://i.imgur.com/eyErQf4.png)
+
+##### Screen 1
+
+- [ ] Show a list of podcasts using the endpoint provided below.
+- [ ] Each list item should show the podcast thumbnail, title, and publisher name.
+- [ ] Leave some space for the favourite-state.
+
+##### Screen 2
+
+- [ ] Tapping on a list item from Screen 1 should bring you to Screen 2.
+- [ ] On Screen 2, show the podcast's title, publisher name, thumbnail, and description.
+- [ ] Add a Favourite button to the screen.
+- [ ] The Favourite button should have two states: Favourite and Favourited.
+- [ ] When tapping the Favourite button, the label should change to Favourited, and vice-versa. The list item on Screen 1 should also show that the podcast is Favourited.
+
+## Details
 
 - [ ] Fork this repo and keep it public until we've been able to review it.
 - [ ] Can be written in either Java or Kotlin. Preference towards Kotlin.
