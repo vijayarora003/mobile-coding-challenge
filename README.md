@@ -1,6 +1,6 @@
 # Mobile Developer Coding Challenge
 
-Please read the instructions below carefully before starting the coding challenge. This coding challenge should take 3-4 hours to complete.
+Please read the instructions below carefully before starting the coding challenge.
 
 Once submitted, the mobile team will review your work and get back to you as soon as possible.
 
