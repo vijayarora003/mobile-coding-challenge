@@ -1,20 +1,21 @@
 # Mobile Developer Coding Challenge
 
-Please read the instructions below carefully before starting the coding challenge. This coding challenge should take no longer than 3 hours to complete.
+Please read the instructions below carefully before starting the coding challenge. This coding challenge should take 3-4 hours to complete.
 
 Once submitted, the mobile team will review your work and get back to you as soon as possible.
 
 ## The Goal
 
-You will be building a simple two-screen podcasts app. Please follow the mockup below as closely as possible when building the UI.
+You will be building a simple two-screen podcasts app. A basic mockup is provided below:
 
-[![](https://i.imgur.com/eyErQf4.png)](https://i.imgur.com/eyErQf4.png)
+[![](https://i.imgur.com/yi8w1s8.png)](https://i.imgur.com/yi8w1s8.png)
 
 #### Screen 1
 
 - [ ] Show a list of podcasts using the endpoint provided below.
+- [ ] Show a loading spinner on the page while the data is being fetched from the endpoint.
 - [ ] Each list item should show the podcast thumbnail, title, and publisher name.
-- [ ] Leave some space for the "Favourited" label (refer to the second list item in the mockup above).
+- [ ] Leave some space for the "Favourited" label (refer to the second podcast in the list in the mockup above).
 - [ ] Show the Favourited label only if the podcast has been favourited, otherwise hide the label.
 
 #### Screen 2
