@@ -1,0 +1,4 @@
+lane :generate_ipa do 
+   increment_build_number(xcodeproj: "Assignment.xcodeproj")
+  gym
+end

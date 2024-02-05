@@ -20,9 +20,9 @@
 		5F62DF432811901D001D8171 /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62DF402811901D001D8171 /* StringConstants.swift */; };
 		5F62DF442811901D001D8171 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62DF412811901D001D8171 /* APIConstants.swift */; };
 		5F62DF482811902E001D8171 /* AudioBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62DF472811902E001D8171 /* AudioBookModel.swift */; };
-		5F62DF4E2811925E001D8171 /* AudioBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62DF4C2811925E001D8171 /* AudioBookTableViewCell.swift */; };
-		5F62DF4F2811925E001D8171 /* AudioBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F62DF4D2811925E001D8171 /* AudioBookTableViewCell.xib */; };
 		5F62DF532811A7B0001D8171 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F62DF522811A7B0001D8171 /* UIImageView+Extension.swift */; };
+		944216502A812E81003A6F7D /* AudioBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9442164E2A812E81003A6F7D /* AudioBookTableViewCell.swift */; };
+		944216512A812E81003A6F7D /* AudioBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9442164F2A812E81003A6F7D /* AudioBookTableViewCell.xib */; };
 		BF04C96229FAA3A800B3B6AC /* MockCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04C95E29FAA3A800B3B6AC /* MockCacheManager.swift */; };
 		BF04C96329FAA3A800B3B6AC /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04C95F29FAA3A800B3B6AC /* MockAPIManager.swift */; };
 		BF04C96429FAA3A800B3B6AC /* MockAudioBooks.json in Resources */ = {isa = PBXBuildFile; fileRef = BF04C96029FAA3A800B3B6AC /* MockAudioBooks.json */; };
@@ -74,9 +74,9 @@
 		5F62DF402811901D001D8171 /* StringConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		5F62DF412811901D001D8171 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		5F62DF472811902E001D8171 /* AudioBookModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioBookModel.swift; sourceTree = "<group>"; };
-		5F62DF4C2811925E001D8171 /* AudioBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBookTableViewCell.swift; sourceTree = "<group>"; };
-		5F62DF4D2811925E001D8171 /* AudioBookTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AudioBookTableViewCell.xib; sourceTree = "<group>"; };
 		5F62DF522811A7B0001D8171 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		9442164E2A812E81003A6F7D /* AudioBookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioBookTableViewCell.swift; sourceTree = "<group>"; };
+		9442164F2A812E81003A6F7D /* AudioBookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioBookTableViewCell.xib; sourceTree = "<group>"; };
 		BF04C95429FAA38200B3B6AC /* AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF04C95E29FAA3A800B3B6AC /* MockCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCacheManager.swift; sourceTree = "<group>"; };
 		BF04C95F29FAA3A800B3B6AC /* MockAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
@@ -259,8 +259,8 @@
 		5F62DF49281191AF001D8171 /* XIB */ = {
 			isa = PBXGroup;
 			children = (
-				5F62DF4C2811925E001D8171 /* AudioBookTableViewCell.swift */,
-				5F62DF4D2811925E001D8171 /* AudioBookTableViewCell.xib */,
+				9442164E2A812E81003A6F7D /* AudioBookTableViewCell.swift */,
+				9442164F2A812E81003A6F7D /* AudioBookTableViewCell.xib */,
 			);
 			path = XIB;
 			sourceTree = "<group>";
@@ -385,9 +385,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF90CF8B29FC1D8C002D3A23 /* Colors.xcassets in Resources */,
-				5F62DF4F2811925E001D8171 /* AudioBookTableViewCell.xib in Resources */,
 				5F29F56E24505F76000BE334 /* LaunchScreen.storyboard in Resources */,
 				BF04C96A29FAA51500B3B6AC /* MockAudioBooks.json in Resources */,
+				944216512A812E81003A6F7D /* AudioBookTableViewCell.xib in Resources */,
 				BF90CF8C29FC1D8C002D3A23 /* Assets.xcassets in Resources */,
 				5F29F56624505F6F000BE334 /* Main.storyboard in Resources */,
 			);
@@ -415,13 +415,13 @@
 				5F62DF3E28118FE9001D8171 /* AudioBookViewModel.swift in Sources */,
 				BFD35D3029CA209B003EE9B8 /* FetchResultController.swift in Sources */,
 				BFD35D3129CA209B003EE9B8 /* CoreDataManager.swift in Sources */,
-				5F62DF4E2811925E001D8171 /* AudioBookTableViewCell.swift in Sources */,
 				BFD35D3429CA20B6003EE9B8 /* Assignment.xcdatamodeld in Sources */,
 				BFC19644291CC9C8005D5A8C /* ViewIdentifiers.swift in Sources */,
 				BF29BC4A29F90A7F00C9A80B /* DetailsViewModel.swift in Sources */,
 				5F62DF432811901D001D8171 /* StringConstants.swift in Sources */,
 				BF29BC4E29F90EFD00C9A80B /* NSMutableAttributedString+Extension.swift in Sources */,
 				5F62DF3B28118FB8001D8171 /* APIRequest.swift in Sources */,
+				944216502A812E81003A6F7D /* AudioBookTableViewCell.swift in Sources */,
 				BF29BC4629F8FFB600C9A80B /* DetailsViewController.swift in Sources */,
 				5F29F56324505F6F000BE334 /* AudioBookListViewController.swift in Sources */,
 				5F2BF496281538EC003CAFC5 /* UIView+Extension.swift in Sources */,
@@ -601,16 +601,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WN8JR2SQG;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = NH28YSW73J;
 				INFOPLIST_FILE = "$(SRCROOT)/Assignment/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Assingment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igloo.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "2023 - PRODUCTION Igloo.Mobile App Store";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "2023 - PRODUCTION Igloo.Mobile App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -621,16 +624,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WN8JR2SQG;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = NH28YSW73J;
 				INFOPLIST_FILE = "$(SRCROOT)/Assignment/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Assingment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.igloo.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "2023 - PRODUCTION Igloo.Mobile App Store";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "2023 - PRODUCTION Igloo.Mobile App Store";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -642,7 +648,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -661,7 +667,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;

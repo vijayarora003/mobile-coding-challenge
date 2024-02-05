@@ -1,0 +1,18 @@
+PROVISIONING_PROFILE_SPECIFIER = "2023 - PRODUCTION Igloo.Mobile App Store"
+DEVELOPER_APP_IDENTIFIER = "com.igloo.mobile"
+
+# App scheme name
+scheme("Assignment")
+#provide provisioning profiles to use
+export_options({
+   method: "app-store",
+   provisioningProfiles: {
+      DEVELOPER_APP_IDENTIFIER => PROVISIONING_PROFILE_SPECIFIER,
+    }
+})
+# Specify the path to store .ipa file
+output_directory("./fastlane/builds")
+# Excludes bitcode from the build
+include_bitcode(false)
+# Excludes symbols from the build.
+include_symbols(false)
